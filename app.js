@@ -501,7 +501,7 @@ function App() {
         const container = document.getElementById('root');
         const root = ReactDOM.createRoot(container);
         root.render(<App />);
-    </script>
+    
 
 // Mount your React app
 ReactDOM.render(<App />, document.getElementById('root'));
