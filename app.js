@@ -186,7 +186,7 @@ function App() {
                         <span className="text-yellow-400 relative inline-block">
                             Royale
                             {/* De toegevoegde tekst met absolute positionering */}
-                            <p className="absolute right-0 top-full text-[8px] sm:text-[10px] text-gray-500 whitespace-nowrap pt-0.5">
+                            <p className="absolute right-0 top-[50%] text-[8px] sm:text-[10px] text-gray-500 whitespace-nowrap pt-0.5">
                                 By Glorious
                             </p>
                         </span>
