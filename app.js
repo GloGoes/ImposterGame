@@ -178,13 +178,20 @@ function App() {
             return (
               <div className="min-h-screen bg-slate-900 text-white p-4 font-sans flex flex-col items-center">
                 <header className="mb-6 text-center pt-6 animate-in">
-                  <div className="flex justify-center mb-2">
-                    <span className="text-4xl text-yellow-400">⚔️</span>
-                  </div>
-                  <h1 className="text-3xl font-black text-white drop-shadow-lg tracking-wider uppercase">
-                    Undercover <span className="text-yellow-400">Royale</span>
-                  </h1>
-                  <p className="text-slate-400 text-sm mt-1">Kies een thema & vind de bedrieger</p>
+                    <div className="flex justify-center mb-2">
+                        <span className="text-4xl text-yellow-400">⚔️</span>
+                    </div>
+                    <h1 className="text-3xl font-black text-white drop-shadow-lg tracking-wider uppercase">
+                        Imposter 
+                        <span className="text-yellow-400 relative inline-block">
+                            Royale
+                            {/* De toegevoegde tekst met absolute positionering */}
+                            <p className="absolute right-0 top-full text-[8px] sm:text-[10px] text-gray-500 whitespace-nowrap pt-0.5">
+                                By Glorious
+                            </p>
+                        </span>
+                    </h1>
+                    <p className="text-slate-400 text-sm mt-1">Kies een thema & vind de bedrieger</p>
                 </header>
 
                 <div className="w-full max-w-md bg-slate-800 rounded-xl p-5 shadow-xl border border-slate-700 mb-20 animate-in" style={{animationDelay: '0.1s'}}>
